@@ -1,0 +1,40 @@
+.page {
+				background: url(images/o_1bqcf6vh91g66vfb1o3lk1a1rc62q.gif);
+			}
+			
+			.swiper-container {
+				width: 80%;
+				height: 30%;
+				margin: auto;
+				text-align: center;
+			}
+			
+			.swiper-wrapper {
+				width: 100%;
+				height: 100%;
+			}
+			
+			.swiper-container img {
+				width: 100%;
+				height: 100%;
+			}
+			
+			#gentle {
+				position: absolute;
+				font-size: 1.5rem;
+				font-weight: bold;
+				width: 130px;
+				color: white;
+				left: -130px;
+				top: 30%;
+			}
+			
+			.no2 {
+				position: relative;
+			}
+			
+			.no2 .swiper-container {
+				position: absolute;
+				top: 40%;
+				left: 10%;
+			}

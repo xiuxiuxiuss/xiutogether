@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-position: -15px 0;
+  background: url(../img/o_1bi0mf8uc1aee1pt51u9mcs81hkqf.jpg);
+  background-size:120% 100%;
+}
+
+.no0 div {
+  width: 100%;
+  height: 100%;
+  font-size:40px;
+  text-align: center;
+  background:url(../img/o_1bqcf6vh91g66vfb1o3lk1a1rc62q.gif);
+}
+/*.no0 div{background-color:black;}
+.no1 div{background-color:orange;}
+.no2 div{background-color:yellow;}
+.no3 div{background-color:green;}
+.no4 div{background-color:yellowgreen;}
+.no5 div{background-color:skyblue;}
+.no6 div{background-color:pink;}
+.no7 div{background-color:white;}*/
+
+
+/****场景一****/
+.ex1-1{
+  width:100%;
+  height:100%;
+  perspective: 500px;
+}
+.ex1-1 img{
+  position: absolute;
+  left:50%;
+  top:50%;
+  width:65%;
+}
+.ex1-1 img:nth-child(1){
+  margin-top:-84%;
+  margin-left:-32%;
+  z-index:1;
+  transform: rotateX(90deg);
+}
+.ex1-1 img:nth-child(2){
+  margin-top:-24%;
+  margin-left:-32%;
+  z-index:3;
+  transform: translateY(-1000px);
+}
+.ex1-1 img:nth-child(3){
+  margin-top:-24%;
+  margin-left:-32%;
+  z-index:2;
+  transform: translateZ(-100000px);
+}
+.ex1-1 img:nth-child(4){
+  margin-top:-35%;
+  margin-left:-32%;
+  z-index: 4;
+  transform: translatey(1000px);
+}
+.ex1-1 img:nth-child(5){
+  margin-top:-16%;
+  margin-left:-32%;
+  z-index:5;
+  transform: translateZ(-100000px);
+}
+.ex1-2{
+  width:100%;
+  height:100%;
+  perspective: 10000px;
+}
+
+.ex1-2 p{
+  position: absolute;
+  color:rgb(189,230,255);
+  left:50%;
+}
+.ex1-2 img{
+  position:absolute;
+  width:36%;
+  transform: translateY(-150px);
+  top:-88%;
+  left: 32%;
+}
+.ex1-2 p:nth-child(1){
+  font-size: 0.5em;
+  margin-left:-4.6em;
+  top:-24%;
+  transform: rotateX(87.5deg);
+}
+.ex1-2 p:nth-child(2){
+  font-size: 0.7em;
+  margin-left:-5.4em;
+  top:-20%;
+  transform: rotateX(87.5deg);
+}
+.ex1-2 p:nth-child(3){
+  font-size:0.65em;
+  margin-left:-5.6em;
+  top:-14%;
+  transform: rotateX(87.5deg);
+}
+.ex1-2 p:nth-child(4){
+  font-size:0.4em;
+  margin-left:-6.4em;
+  top:-80%;
+  transform: translateY(-160px);
+}
+

@@ -1,0 +1,29 @@
+.no1 div {
+	color: white;
+}
+.no1{
+	position: relative;
+}
+.no2{
+	color: white;
+}
+#no11{
+	font-size: 1.5rem;
+	margin: auto;
+	font-weight: bold;
+	width: 130px;
+	margin-bottom: 10px;
+}
+#no12{
+	margin: auto;
+	width: 80%;
+	font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+#no13{
+ margin-top: 10px;
+    font-size: 10px;
+    text-align: right;
+    margin-right: 8%;
+}
